@@ -18,7 +18,7 @@ import tensorflow as tf
 import sklearn.metrics
 import tempfile
 from deepchem.data import pad_features
-from deepchem.utils.save import log
+# from deepchem.utils.save import log
 from deepchem.models import Model
 # from deepchem.nn.copy import Input
 from keras import Input
