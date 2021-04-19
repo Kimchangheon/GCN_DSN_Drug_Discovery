@@ -18,11 +18,14 @@ import tensorflow as tf
 import sklearn.metrics
 import tempfile
 from deepchem.data import pad_features
-# from deepchem.utils.save import log
+from deepchem.utils.save import log
 from deepchem.models import Model
-from deepchem.nn.copy import Input
-from deepchem.nn.copy import Dense
-from deepchem.nn import model_ops
+# from deepchem.nn.copy import Input
+from keras import Input
+# from deepchem.nn.copy import Dense
+from keras.layers import Dense
+
+# from deepchem.nn import model_ops
 # TODO(rbharath): Find a way to get rid of this import?
 from deepchem.models.tf_new_models.graph_topology import merge_dicts
 
