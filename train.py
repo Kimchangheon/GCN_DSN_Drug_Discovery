@@ -12,7 +12,7 @@ import numpy as np
 np.random.seed(123)
 import tensorflow as tf
 # tf.set_random_seed(123)
-tf.random.set_random_seed(123)
+tf.random.set_seed(123)
 import deepchem as dc
 
 import models.multitask_classifier as mymodel
