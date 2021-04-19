@@ -11,14 +11,21 @@ __license__ = "MIT"
 import warnings
 import numpy as np
 import tensorflow as tf
-from deepchem.nn import activations
-from deepchem.nn import initializations
-from deepchem.nn import regularizers
-from deepchem.nn import model_ops
-from deepchem.nn.copy import Layer
-from deepchem.nn.copy import Input
-from deepchem.nn.copy import Dense
-from deepchem.nn.copy import Dropout
+# from deepchem.nn import activations
+from keras import activations
+# from deepchem.nn import initializations
+from keras import initializations
+# from deepchem.nn import regularizers
+from keras import regularizers
+# from deepchem.nn import model_ops
+# from deepchem.nn.copy import Layer
+from keras import Layer
+# from deepchem.nn.copy import Input
+from keras import Input
+# from deepchem.nn.copy import Dense
+from keras.layers import Dense
+# from deepchem.nn.copy import Dropout
+from keras.layers import Dropout
 
 
 def affine(x, W, b):
